@@ -1,6 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "new note",
+        "text": "test\n",
+        "id": "f2bfba96-737d-42bc-992d-6e5e6c23a20a"
+    },
+    {
+        "title": "testing again",
+        "text": "lets see what happens\n",
+        "id": "a5661369-4b2f-44f0-b0f3-962dedde5f8b"
     }
 ]
