@@ -21,12 +21,12 @@ notes.post('/', (req, res) => {
     }
 })
 
-notes.delete('./:note_id', (req, res) => {
+notes.delete('./:id', (req, res) => {
     const noteId = req.params.id;
     readFromFile('./db/db.json').then((data) => JSON.parse(data))
     .then((json) => {
         const result = json.filter((note) => note.id !== noteId);
-
+        console.log(result)
         writeToFile('./db/db.json', result);
     });
 });
